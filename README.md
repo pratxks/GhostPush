@@ -26,7 +26,7 @@ The end result is a visually unusual GitHub commit graph with ups and downs, eve
     git init
     ```
 
-5. Ignore `script.py` and commit `.gitignore` with a past date:
+5. Ignore `script.py` and commit `.gitignore` with a past date (and time):
 
     ```bash
     echo script.py >> .gitignore
