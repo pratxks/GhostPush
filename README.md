@@ -31,7 +31,7 @@ The end result is a visually unusual GitHub commit graph with ups and downs, eve
     ```bash
     echo script.py >> .gitignore
     git add .gitignore
-    GIT_AUTHOR_DATE="2023-05-31T12:00:00" GIT_COMMITTER_DATE="2023-05-31T12:00:00" git commit -m "Add .gitignore"
+    GIT_AUTHOR_DATE="2023-05-25T08:22:45" GIT_COMMITTER_DATE="2023-05-25T08:22:45" git commit -m "Add .gitignore"
     ```
 
 6. Move all your actual project files into this folder.
