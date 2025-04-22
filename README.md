@@ -18,7 +18,6 @@ The end result is a visually unusual GitHub commit graph with ups and downs, eve
     ```bash
     mkdir your-project-name
     cd your-project-name
-    git init
     ```
 
 3. Move `script.py` into this folder and initialize in git.
