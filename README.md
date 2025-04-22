@@ -21,9 +21,13 @@ The end result is a visually unusual GitHub commit graph with ups and downs, eve
     git init
     ```
 
-3. Move `script.py` into this folder.
+3. Move `script.py` into this folder and initialize in git.
+    
+    ```bash
+    git init
+    ```
 
-4. Ignore `script.py` and commit `.gitignore` with a past date:
+5. Ignore `script.py` and commit `.gitignore` with a past date:
 
     ```bash
     echo script.py >> .gitignore
@@ -31,19 +35,19 @@ The end result is a visually unusual GitHub commit graph with ups and downs, eve
     GIT_AUTHOR_DATE="2023-05-31T12:00:00" GIT_COMMITTER_DATE="2023-05-31T12:00:00" git commit -m "Add .gitignore"
     ```
 
-5. Move all your actual project files into this folder.
+6. Move all your actual project files into this folder.
 
-6. Open `script.py` and update the `start_date` (line 7) to when you want your commit history to begin.
+7. Open `script.py` and update the `start_date` (line 7) to when you want your commit history to begin.
 
-7. Run the script:
+8. Run the script:
 
     ```bash
     python script.py
     ```
 
-8. Create a GitHub repo online (do not initialize it with README or license).
+9. Create a GitHub repo online (do not initialize it with README or license).
 
-9. Link your local folder to GitHub:
+10. Link your local folder to GitHub:
 
     ```bash
     git remote remove origin
