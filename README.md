@@ -36,7 +36,7 @@ The end result is a visually unusual GitHub commit graph with ups and downs, eve
 
 6. Move all your actual project files into this folder.
 
-7. Open `script.py` and update the `start_date` (line 7) to when you want your commit history to begin.
+7. Open `script.py` and update the `start_date` (line 7; make sure the start date is after the commit date for .gitignore) to when you want your commit history to begin.
 
 8. Run the script:
 
